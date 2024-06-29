@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #96C9F4; 
+}
+
+.task-manager {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center; 
+ 
+}
+
+.task-manager h1 {
+  margin-bottom: 20px;
+}
+
+.task-manager input[type="text"] {
+  width: calc(100% - 20px); 
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.task-manager button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 10px; 
+  border-radius: 10px;
+}
+
+.task-manager button.add-task-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px; 
+}
+
+.task-manager .filter-buttons {
+  margin-bottom: 10px;
+}
+
+.task-manager .filter-buttons button {
+  margin: 0 5px;
+}
+
+.task-manager ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-manager li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-manager li.completed span {
+  text-decoration: line-through;
+}
+
+.task-manager .task-actions {
+  display: flex;
+  align-items: center;
+}
+
+.task-manager .task-actions button {
+  margin-left: 5px;
+}
