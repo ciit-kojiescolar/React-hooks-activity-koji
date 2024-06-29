@@ -1,6 +1,6 @@
 import React, { useState, useContext, useEffect, useMemo, useCallback, useRef } from 'react';
 import { TaskContext } from './TaskContext';
-import './TaskManager.css'; // Ensure you have your CSS file properly linked
+import './TaskManager.css'; 
 
 const TaskManager = () => {
   const { state, dispatch } = useContext(TaskContext);
